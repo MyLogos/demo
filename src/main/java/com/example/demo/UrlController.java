@@ -14,6 +14,6 @@ public class UrlController {
 
     @GetMapping("url_ip")
     public String login(HttpServletRequest request){
-        return ipMethod.getIp(request);
+        return  ipMethod.getIp(request);
     }
 }
